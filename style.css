@@ -1,0 +1,17 @@
+  body {
+    background: #FFF;
+  }
+  
+  .smaller-image {
+    height: 300px; 
+    width: 500px;
+    
+  }
+  
+  h5 {
+    font-family: monospace;
+  }
+  
+  .questionnare {
+    font-size: 30px;
+  }
