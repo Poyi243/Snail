@@ -1,10 +1,10 @@
-  body {
+body {
     background: #FFF;
   }
   
-  .smaller-image {
-    height: 50%; 
-    width: 50%;
+  #snailimage {
+    height: 25%; 
+    width: 25%;
     
   }
   
@@ -12,8 +12,3 @@
     font-size: 30px;
   }
 
-  #snailplanation {
-    
-    font-size: 10px;
-    
-  }
