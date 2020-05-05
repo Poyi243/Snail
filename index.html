@@ -17,6 +17,14 @@
     transition-timing-function: ease-out;
   }
   
+    #snailcaption {
+    position: relative;
+    animation-name: snailmove;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-out;
+  }
+  
   @keyframes snailmove {
     0%   {left:0px;}
     50%  {left:200px;}
@@ -40,7 +48,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>sick snail facts 0.13e</title>
+  <title>sick snail facts 0.13f</title>
 </head>
 
 <main>
@@ -54,7 +62,7 @@
 
     <figure>
       <br><br><a href="#"><img id="snailimage" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg" alt="snail.jpg"></a>
-      <figcaption><br><em>it's a snail!</em></figcaption>
+      <figcaption id="snailcaption"><br><em>it's a snail! look at him go!</em></figcaption>
     </figure>
     
     <div id="snailfacts">
