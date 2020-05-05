@@ -8,9 +8,21 @@
   }
   
   #snailimage {
+    position: relative;
     height: 35%; 
     width: 35%;
+    animation-name: snailmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
+  
+  @keyframes snailmove {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }  
   
   #questionStart {
     font-size: 30px;
@@ -29,7 +41,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>sick snail facts 0.13c</title>
+  <title>sick snail facts 0.13d</title>
 </head>
 
 <main>
